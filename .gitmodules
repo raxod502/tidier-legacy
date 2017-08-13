@@ -1,0 +1,3 @@
+[submodule "no-carrier"]
+	path = "no-carrier"
+	url = https://github.com/raxod502/no-carrier.git
