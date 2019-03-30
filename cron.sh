@@ -10,7 +10,7 @@ if [[ "$1" != "-f" ]] && ! [[ "$time" > "05:30" && "$time" < "06:30" ]]; then
     exit 1
 fi
 
-for repo in radian straight.el el-patch prescient.el blackout diary-manager; do
+for repo in radian straight.el el-patch prescient.el blackout diary-manager mla-tex; do
         java -jar no-carrier.jar "raxod502/$repo" "waiting on response" 90
 done
 
